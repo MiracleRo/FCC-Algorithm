@@ -15,7 +15,7 @@ function convert(num) {
 	for (b = 0; b < 4; b++) {
 		a += oneNum(parseInt(num.charAt(b)), numArry[b]);
 	}
-	console.log(a);
+	console.log(a);	
    return a;
 }
 convert(500);
